@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoPizza.Core", "Contos
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoPizza", "WebApi\ContosoPizza.csproj", "{E700761E-3CBB-47D5-84B0-F75FAD8CB135}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{0DAC520E-9F5D-461A-880F-923147248340}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.debug.yml = docker-compose.debug.yml
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
